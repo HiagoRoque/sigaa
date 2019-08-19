@@ -359,5 +359,7 @@ int numerologia(void){
     }
     else
         printf("Data de cascimento não se enquadra na numerologia.");
+
+    return 0;
 }
 
