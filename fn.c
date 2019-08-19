@@ -2,6 +2,16 @@
 #include <stdlib.h>
 #include <math.h>
 
+int numerologia();
+
+int main(void){
+    
+    int numerologia(void);
+    numerologia();
+
+    return 0;
+}
+
 int numerologia(void){
 
     int dia, mes, ano, calc1, num;
@@ -348,13 +358,6 @@ int numerologia(void){
         printf("\n");
     }
     else
-        printf("Data de cascimento inválida.");
+        printf("Data de cascimento não se enquadra na numerologia.");
 }
 
-int main(void){
-    
-    int numerologia(void);
-    numerologia();
-
-    return 0;
-}
